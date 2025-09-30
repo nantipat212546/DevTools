@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Define variables
-        DOCKER_IMAGE       = 'tuchsanai/fastapi-webhook:latest'
+        DOCKER_IMAGE       = 'johanlebert/fastapi-webhook'
         DOCKER_CREDENTIALS = credentials('dockerhub')
     }
 
